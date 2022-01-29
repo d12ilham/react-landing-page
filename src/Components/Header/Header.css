@@ -55,13 +55,20 @@
 
 @media (max-width: 700px) {
   .perdect__header-main {
-    padding: 20px 20px 0;
+    padding: 10px;
+    justify-content: center;
   }
 
   .perdect__header-navigation {
     display: none;
   }
   .perdect__header-button {
-    gap: 10px;
+    gap: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .perdect__header-main {
+    padding: 10px 30px;
   }
 }

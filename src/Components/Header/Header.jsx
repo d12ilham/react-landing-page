@@ -15,15 +15,6 @@ const Header = () => {
           <li>
             <a href="">Tutorials</a>
           </li>
-          <li>
-            <a href="">Community</a>
-          </li>
-          <li>
-            <a href="">Resources</a>
-          </li>
-          <li>
-            <a href="">Download</a>
-          </li>
         </ul>
       </div>
       <div className="perdect__header-button">

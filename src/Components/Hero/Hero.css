@@ -73,3 +73,11 @@
     padding-top: 40px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .perdect__hero-main {
+    padding: 50px;
+    margin: 20px;
+    flex-wrap: wrap;
+  }
+}
