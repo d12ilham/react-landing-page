@@ -1,0 +1,37 @@
+.perdect__artboard-main-div {
+  padding: 100px 80px;
+  margin: 0 80px;
+  text-align: center;
+
+  background: #d6f2ff;
+  border-radius: 50px;
+}
+
+.perdect__artboard-main-div img {
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: -140px;
+  margin-top: 30px;
+}
+
+.perdect__artboard-main-div h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 25px;
+}
+
+.perdect__artboard-main-div {
+  background: #d6f2ff;
+  border-radius: 50px;
+}
+
+@media (max-width: 700px) {
+  .perdect__artboard-main-div {
+    padding: 30px 20px 0 20px;
+    margin: 10px;
+  }
+  .perdect__artboard-main-div h3 {
+    font-size: 30px;
+  }
+}

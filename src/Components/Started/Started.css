@@ -1,0 +1,62 @@
+.perdect__started-main {
+  margin: 0 80px 80px 80px;
+  background-color: #d6f2ff;
+  border-radius: 50px;
+  padding: 50px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background-image: url("./Group.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.perdect__started-main h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.perdect__started-main h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.perdect__started-button {
+  display: flex;
+  gap: 10px;
+}
+
+.perdect__started-button-download {
+  background: #263e56;
+  border-radius: 5px;
+  border: 2px solid #263e56;
+  color: #fff;
+  padding: 12px 25px;
+  font-weight: 500;
+}
+
+.perdect__started-button-buy-now {
+  background: #e5f6ff;
+  border-radius: 5px;
+  border: 2px solid #a2f4fe;
+  color: var(--primary-color);
+  padding: 12px 25px;
+  font-weight: 500;
+}
+
+@media (max-width: 700px) {
+  .perdect__started-main {
+    margin: 20px;
+    padding: 40px;
+  }
+
+  .perdect__started-main h3 {
+    font-size: 30px;
+  }
+}
